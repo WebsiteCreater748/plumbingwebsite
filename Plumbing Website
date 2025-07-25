@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Reliable Plumbing Services</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0; padding: 0;
+      background-color: #f7f9fc;
+      color: #333;
+    }
+    header {
+      background-color: #0077cc;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+    nav a {
+      color: white;
+      margin: 0 15px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    nav a:hover {
+      text-decoration: underline;
+    }
+    .hero {
+      background-color: #e1f0ff;
+      padding: 60px 20px;
+      text-align: center;
+    }
+    .hero h1 {
+      margin-bottom: 10px;
+      font-size: 2.5rem;
+      color: #0077cc;
+    }
+    .hero p {
+      font-size: 1.2rem;
+      margin-bottom: 20px;
+    }
+    .btn-contact {
+      background-color: #0077cc;
+      color: white;
+      padding: 15px 30px;
+      border: none;
+      border-radius: 5px;
+      font-size: 1rem;
+      cursor: pointer;
+      text-decoration: none;
+    }
+    .btn-contact:hover {
+      background-color: #005fa3;
+    }
+    section {
+      max-width: 900px;
+      margin: 40px auto;
+      padding: 0 20px;
+    }
+    h2 {
+      color: #0077cc;
+      margin-bottom: 15px;
+    }
+    .services {
+      display: flex;
+      justify-content: space-around;
+      flex-wrap: wrap;
+      gap: 20px;
+    }
+    .service {
+      background-color: white;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+      padding: 20px;
+      border-radius: 8px;
+      flex: 1 1 250px;
+      text-align: center;
+    }
+    .service h3 {
+      margin-top: 0;
+    }
+    footer {
+      background-color: #0077cc;
+      color: white;
+      text-align: center;
+      padding: 15px;
+      margin-top: 60px;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>Reliable Plumbing Services</h1>
+  <nav>
+    <a href="#services">Services</a>
+    <a href="#about">About Us</a>
+    <a href="#contact">Contact</a>
+  </nav>
+</header>
+
+<div class="hero">
+  <h1>Fast & Affordable Plumbing Solutions</h1>
+  <p>24/7 emergency services | Licensed & Insured | Satisfaction Guaranteed</p>
+  <a href="#contact" class="btn-contact">Get a Free Quote</a>
+</div>
+
+<section id="services">
+  <h2>Our Services</h2>
+  <div class="services">
+    <div class="service">
+      <h3>Leak Repairs</h3>
+      <p>We fix all types of leaks quickly to save your home from damage.</p>
+    </div>
+    <div class="service">
+      <h3>Drain Cleaning</h3>
+      <p>Efficient drain clearing services to keep your pipes flowing freely.</p>
+    </div>
+    <div class="service">
+      <h3>Pipe Installation</h3>
+      <p>Expert pipe installation for new construction or remodeling projects.</p>
+    </div>
+  </div>
+</section>
+
+<section id="about">
+  <h2>About Us</h2>
+  <p>Reliable Plumbing Services has been serving the community for over 10 years. Our licensed plumbers are dedicated to providing high-quality, honest, and affordable plumbing solutions with a focus on customer satisfaction.</p>
+</section>
+
+<section id="contact">
+  <h2>Contact Us</h2>
+  <p>Call us anytime: <strong>(555) 123-4567</strong></p>
+  <p>Email: <a href="mailto:info@reliableplumbing.com">info@reliableplumbing.com</a></p>
+  <p>Address: 123 Waterway Drive, Springfield</p>
+</section>
+
+<footer>
+  &copy; 2025 Reliable Plumbing Services. All rights reserved.
+</footer>
+
+</body>
+</html>
